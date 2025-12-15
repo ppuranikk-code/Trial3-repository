@@ -1,0 +1,81 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+.section {
+    margin: 20px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+/* Text examples for assignment */
+.blue-text {
+    color: blue;
+}
+
+.big-text {
+    font-size: 20px;
+}
+
+/* Put 3 images side-by-side */
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.image-row > div {
+    width: 33%;
+}
+
+.img-left {
+    text-align: left;
+}
+
+.img-center {
+    text-align: center;
+}
+
+.img-right {
+    text-align: right;
+}
+
+/* Default image size */
+img {
+    width: 200px;
+    height: auto;
+}
+
+/* Make LinkedIn logo look nicer (optional) */
+.img-center img {
+    max-width: 120px;
+}
+
+/* Small note text */
+.small-note {
+    font-size: 14px;
+    color: #555;
+    margin-top: 8px;
+}
+
+/* Link styles */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
